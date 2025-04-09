@@ -87,6 +87,9 @@ nav a:hover {
 .social-icons {
   margin-top: 20px;
 }
+.social-icons a{
+  text-decoration: none;
+}
 
 .social-icons a img {
   width: 30px;
