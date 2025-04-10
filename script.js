@@ -3,7 +3,7 @@ const words = [ 'Web Development', 'UI/UX Design', 'Android Application'];
 
 let wordIndex = 0;
 let letterIndex = 0;
-
+//Function to write the elements in variable words
 function type() {
   if (letterIndex < words[wordIndex].length) {
     typingElement.textContent += words[wordIndex].charAt(letterIndex);
@@ -14,6 +14,7 @@ function type() {
   }
 }
 
+/Function to erase the elements from variable words
 function erase() {
   if (letterIndex > 0) {
     typingElement.textContent = words[wordIndex].substring(0, letterIndex - 1);
