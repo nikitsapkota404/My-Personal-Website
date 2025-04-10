@@ -14,7 +14,7 @@ function type() {
   }
 }
 
-/Function to erase the elements from variable words
+//Function to erase the elements from variable words
 function erase() {
   if (letterIndex > 0) {
     typingElement.textContent = words[wordIndex].substring(0, letterIndex - 1);
