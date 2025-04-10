@@ -159,7 +159,30 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+<!--   Feedback Section -->
+  <section id="feedback" class="feedback">
+    <div class="container">
+      <h2>Feedback</h2>
+      <p>I’d like to hear your thoughts! Please provide your feedback below.</p>
+      <form action="https://formspree.io/f/mnnpodko" method="POST" class="feedback-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label for="feedback">Your Feedback</label>
+          <textarea id="feedback" name="feedback" required placeholder="Write your feedback here..."></textarea>
+        </div>
+        <button type="submit" class="btn">Submit Feedback</button>
+      </form>
+    </div>
+  </section>
+
+    <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
       <h2>Contact</h2>
@@ -195,28 +218,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <section id="feedback" class="feedback">
-    <div class="container">
-      <h2>Feedback</h2>
-      <p>I’d like to hear your thoughts! Please provide your feedback below.</p>
-      <form action="https://formspree.io/f/mnnpodko" method="POST" class="feedback-form">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" id="name" name="name" required placeholder="Your Name">
-        </div>
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" id="email" name="email" required placeholder="Your Email">
-        </div>
-        <div class="form-group">
-          <label for="feedback">Your Feedback</label>
-          <textarea id="feedback" name="feedback" required placeholder="Write your feedback here..."></textarea>
-        </div>
-        <button type="submit" class="btn">Submit Feedback</button>
-      </form>
     </div>
   </section>
   <script src="script.js"></script>
