@@ -24,33 +24,43 @@ header {
 
 .logo img {
   height: 100px;
-  width: 100px;
+  width: 150px;
   object-fit: contain; 
   display: block; 
 }
-
 nav a {
-  margin: 0 15px;
+  margin: 0 10px;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
-  transition: color 0.3s;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  background-color: white; 
+  display: inline-block;
+  transition: all 0.3s ease;
+  text-align: center;
 }
 
-nav a:hover {
-  font-weight: bold;
-  font-size: larger;
-  color: black;
-  transition: all;
-  transition-duration: 0.25s;
-  transition-timing-function: ease-in;
+nav a:hover,
+nav a:focus {
+  color: white;
+  background-color: rgb(28, 28, 183);
+  box-shadow: 0 4px 8px rgba(255, 99, 71, 0.2);
+  transform: scale(1.05);
+}
+
+nav a.active {
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
 }
 
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 50px;  
   min-height: 90vh;
   background: #ffffff;
   background-image: url('https://www.transparenttextures.com/patterns/escheresque.png');
@@ -121,10 +131,11 @@ nav a:hover {
 .hero-image::before {
   content: '';
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('images/IMG_2376.JPG'); 
+  background-image: url('images/nikitimg.JPG');
   background-size: cover;
   background-position: center;
   opacity: 0;
@@ -135,6 +146,8 @@ nav a:hover {
 .hero-image:hover::before {
   opacity: 1;
 }
+
+
 
 .about {
   padding: 50px;
