@@ -1,5 +1,5 @@
 const typingElement = document.querySelector('.typing');
-const words = [ 'Web Development', 'UI/UX Design', 'Research'];
+const words = [ 'Web Development', 'UI/UX Design'];
 
 let wordIndex = 0;
 let letterIndex = 0;
