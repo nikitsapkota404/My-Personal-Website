@@ -1,2 +1,2 @@
-# My-Personal-Website
-My simple website made using HTML, CSS and JS.
+# My-Personal-Portfolio
+My simple Portfolio made using HTML, CSS and JS.
